@@ -12,12 +12,11 @@
                         <div class="row">
                             <div class="col-md-6">
 								<div class="form-group">
-									<div class="intro-lead-in">Selamat Datang</div>
-									<div class="intro-heading">Twitder</div>
+									<div class="welcome-text"><h1>Selamat Datang di Twitder</h1></div>
 								</div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="panel panel-default">
+                <div class="col-md-6">
+                <div class="panel panel-default">
                 <div class="panel-heading"><strong class="">Login</strong>
 
                 </div>
@@ -58,8 +57,8 @@
                 <div class="panel-footer">Belum terdaftar? <a href="beranda.php" class="">Daftar disini</a>
                 </div>
             </div>
-                            </div>                            
-                        </div>
+			</div>                            
+		</div>
                     
             </div>
             </div>

@@ -9,7 +9,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Twitder</a>
+                <a class="navbar-brand page-scroll" href="#page-top">
+				<div class="logo"><img src="../img/chima.png" height="60px" width="80"></div></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
