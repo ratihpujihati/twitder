@@ -243,7 +243,8 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default {
         padding: 8px 0;
         border: 0;
-        background-color: #140F8A;
+        background-color: #0f86b2;
+		border-bottom: 4px solid #DDDDDD;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -274,7 +275,7 @@ header {
     text-align: center;
     color: #7A6A6A;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background: #ddd url(../img/header-bg.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -890,4 +891,9 @@ body {
 
 .banner .container{
 	position: relative;
+}
+
+#myCarousel{
+    margin-top: 80px;
+    margin-bottom: 20px;
 }
