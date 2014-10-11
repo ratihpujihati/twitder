@@ -13,6 +13,13 @@
                             <div class="col-md-6">
 								<div class="form-group">
 									<div class="welcome-text"><h1>Selamat Datang di Twitder</h1></div>
+									<div class="welcome-text"><img src="../img/twitderlogo.jpg" width="370" height="130"></div>
+										<!--<div class="col-md-3">
+											<img src="../img/wawalkot.png" width="390" height="360">
+										</div>
+										<div class="col-md-3">
+											<img src="../img/walkot.png" width="390" height="360">
+										</div>-->									
 								</div>
                             </div>
                 <div class="col-md-6">

@@ -243,7 +243,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default {
         padding: 8px 0;
         border: 0;
-        background-color: #242415;
+        background-color: #140F8A;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -874,5 +874,20 @@ body {
 }
 
 .logo{
-	padding-top: -10px;
+	padding-top: -50px;
+	padding-left: 8px;
+}
+
+.banner{
+    padding-top: 55px;
+    padding-bottom: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+    color: inherit;
+    background-color: #EEE;
+}
+
+.banner .container{
+	position: relative;
 }

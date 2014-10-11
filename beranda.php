@@ -5,9 +5,18 @@
 
     <!-- Header -->
     <header>
+	
         <div class="container">
-            <div class="intro-text">
-               <div class="row">
+			<div class="row">
+			<div class="banner">
+				<div class="container">
+					<img src="../img/wawalkot.png" width="390" height="360">				
+					<img src="../img/walkot.png" width="390" height="360">
+				
+				</div>
+			</div>
+			</div>
+            <div class="row">
                 <div class="col-lg-12">
 				<div class="row">
 					<!--Profil-->
@@ -50,7 +59,6 @@
 					</div>
 					
 				</div>
-            </div>
             </div>
             </div>
         </div>
