@@ -218,13 +218,13 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #777;
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #20202F;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -243,8 +243,8 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default {
         padding: 8px 0;
         border: 0;
-        background-color: #0f86b2;
-		border-bottom: 4px solid #DDDDDD;
+        background-color: #f8f8f8;
+		border-bottom: 4px solid #f8f8f8;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
