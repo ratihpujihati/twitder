@@ -13,6 +13,7 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/profil.css" rel="stylesheet">
     <link href="css/jquerysctipttop.css" rel="stylesheet">
 	
     <!-- Custom JS -->
@@ -37,10 +38,9 @@
     <![endif]-->
 
 </head>
-<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" />
+<!-- <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> -->
 
 <body id="page-top" class="index">
 <!-- Navigation -->
@@ -74,10 +74,11 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Team</a>
+                        <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#"><button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-edit"></span> New Tweet</button>
+						</a> 
                     </li>
                 </ul>
             </div>
@@ -174,10 +175,26 @@
 					<div class="panel panel-default">
 						<div class="panel-heading"><strong class="">Profil</strong></div>
 						<div class="panel-body">
-								<h3>
-									<a href="#">Project Name</a>
-								</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+							<div class="g-hover-card">                
+								<img src="img/team/1.jpg" alt="">
+								<div class="user-avatar">
+								   <img src="img/team/1.jpg" alt="">
+								</div>
+								<div class="info">
+								   <div class="title">
+									  <a href="http://www.wsnippets.com">Wsnippets.com</a>
+								   </div>
+								   <div class="description">Chennai</div>
+								</div>
+								<div class="bottom">
+								   <a href="https://twitter.com/wsnippets" class="btn btn-info btn-block">
+									  Follow on Twitter
+								   </a>
+								   <a href="https://plus.google.com/+Wsnippets" rel="publisher" class="btn btn-primary btn-block">
+										  Follow on Google+
+								   </a>
+								</div>
+							 </div>
 						</div>               
 						</div>
 					</div>
@@ -185,12 +202,43 @@
 					<!--Tweet-->
 					<div class="col-md-6 portfolio-item">
 					<div class="panel panel-default">
-						<div class="panel-heading"><strong class="">Tweet</strong></div>
+						<div class="panel-heading"><strong class=""><h4>Twits</h4></strong></div>
 						<div class="panel-body">
-								<h3>
-									<a href="#">Project Name</a>
-								</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+								<div class="stream">
+									<div class="alert alert-info" role="alert">
+										<a href="#" style="text-align:center" class="alert-link">View 15 new twits</a>
+									</div>
+								  </div>
+								  <hr>
+								  
+								  <div class="stream">
+									<a class="pull-left" href="#">
+									 <img width="60px" height="60px" class="img-circle img-responsive" alt="" src="img/team/1.jpg"></img>
+									</a>
+									<div class="stream-body">
+									  <p>Looking cool</p>
+									  <a href="#">January 19 at 8:15pm</a></br></br>
+									  <a href=""><span class="glyphicon glyphicon-share-alt"></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									  <a href=""><span class="glyphicon glyphicon-retweet"></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									  <a href=""><span class="glyphicon glyphicon-star"></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									  <a href=""><span class="glyphicon glyphicon-chevron-down"></span></a>&nbsp;
+									</div>
+								  </div>
+								  <hr>
+								  <div class="stream">
+									<a class="pull-left" href="#">
+									 <img width="60px" height="60px" class="img-circle img-responsive" alt="" src="img/team/1.jpg"></img>
+									</a>
+									<div class="stream-body">
+									  <p>Looking cool</p>
+									  <a href="#">January 19 at 8:15pm</a></br></br>
+									  <a href=""><span class="glyphicon glyphicon-share-alt"></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									  <a href=""><span class="glyphicon glyphicon-retweet"></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									  <a href=""><span class="glyphicon glyphicon-star"></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									  <a href=""><span class="glyphicon glyphicon-chevron-down"></span></a>&nbsp;
+									</div>
+								  </div>
+								  <hr>
 						</div>               
 						</div>
 					</div>
@@ -213,4 +261,23 @@
             </div>
         </div>
 	</header>
+	
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 	

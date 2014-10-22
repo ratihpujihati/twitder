@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Arial,sans-serif;
 }
 
 .text-muted {
@@ -214,8 +214,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .nav li a {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     color: #777;
@@ -224,6 +223,9 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
+	border-bottom: 2px solid #20202F;
+	font-weight: 450;
+	font-style: bold;
     color: #20202F;
 }
 
@@ -241,7 +243,6 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 8px 0;
         border: 0;
         background-color: #f8f8f8;
 		border-bottom: 4px solid #f8f8f8;
@@ -896,4 +897,33 @@ body {
 #myCarousel{
     margin-top: 80px;
     margin-bottom: 20px;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    /* padding-right: 15px; */
+}
+
+.judulTweet{
+	font-size: 14px;
+	line-height: inherit;
+}
+
+.stream{
+	font-size: 14px;
+	line-height: inherit;
+	text-align: left;
+}
+
+.stream:hover{
+	background-color: #eee;
+}
+
+.stream-body{
+	font-size: 14px;
+	line-height: inherit;
+	text-align: left;
+	padding-left: 75px;
 }
