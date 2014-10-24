@@ -3,15 +3,25 @@
 *{margin:0;padding:0;}
 
 body{
-  /*background:#2c3e50;
-	background: #89A6A1  url(http://cssdeck.com/uploads/media/items/7/7AF2Qzt.png);*/
-	background: #eee  url('logo/cc-pattern-light.png');
+  /* background:#2c3e50; */
+	background-image: url(header-bg.jpg); 
+  /* background: #eee  url('logo/cc-pattern-light.png'); */
 	
 	font-family:'Open Sans',sans-serif;
 	margin: 0 auto;
 	position: relative;
 }
 
+.chima{
+	background-image: url(chima.jpg); 
+	float: right;
+	position: absolute;
+	z-index: 9999;
+	height: 93px;
+	width: 140px;
+	padding-top: 50%;
+	outline:none;
+}
 
 .button{
 font-size: 34px;
