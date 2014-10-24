@@ -16,15 +16,13 @@
     <link href="css/profil.css" rel="stylesheet">
     <link href="css/jquerysctipttop.css" rel="stylesheet">
 	
-    <!-- Custom JS -->
-	<link href="js/jquery.min.js">
-	<link href="js/jquery-1.11.0.js">
-	
-	<link href="js/bootstrap.js">
-
-	
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
+	
+	 <!-- Custom JS -->
+	<script src="js/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+	<link href="js/bootstrap.js">
 
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -60,15 +58,16 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-				<div class="logo"><img src="img/chima.png" height="140" width="130"></div></a>
+				<div class="logo"><img src="img/chima.png" height="130" width="130"></div></a>
             </div>
 
+            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <li>
+                                     <li>
                         <a class="page-scroll" href="#Beranda">Beranda</a>
                     </li>
                     <li>
@@ -78,7 +77,7 @@
                         <a class="page-scroll" href="#Kontak Kami">Kontak Kami</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact"><button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-edit"></span> New Tweet</button>
+                        <button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-edit"></span> New Tweet</button>
 						</a> 
                     </li>
                 </ul>
@@ -263,6 +262,20 @@
         </div>
 	</header>
 	
- <footer>
-  <p>Pemerintah Kota Cimahi 2014</p>
-</footer> 
+<!-- New Tweet -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Twit Baru</h4>
+      </div>
+      <div class="modal-body">
+        <textarea placeholder="Twit Baru..." cols="80" rows="6"></textarea>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Twit</button>
+      </div>
+    </div>
+  </div>
+</div>
